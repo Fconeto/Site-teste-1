@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    color: black;
+}
+
+.menu {
+    text-align: justify;
+}
+
+.m {
+    list-style: none;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    display: inline-block;
+
+}
+.d1 {
+    
+    background-color: red;
+}
+
+.d2 {
+    
+    background-color: rgb(76, 0, 255);
+}
+
+.d3 {
+    
+    background-color: rgb(9, 255, 0);
+}

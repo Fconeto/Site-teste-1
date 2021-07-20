@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.e {
+    font:bold 25px "arial";
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    text-transform:uppercase;
+    text-align: center;
+    
+    
+}
+
+.elemento1 {
+    position: relative;
+    background-color: red;
+    top: 200px;
+    z-index: 1;
+}
+
+.elemento2 {
+    position: relative;
+    background-color: royalblue;
+    
+}
