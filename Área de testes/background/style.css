@@ -1,6 +1,24 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .bola {
-    background-color: tomato;
-    width: 100px;
-    height: 100px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Video-Game-Controller-Icon-IDV-green.svg/2048px-Video-Game-Controller-Icon-IDV-green.svg.png);
+    background-size: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #77c3b1;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    border: 10px solid rgb(30, 105, 139);
+}
+
+.bola:hover {
+    background-color: rgb(212, 47, 47);
+    border-color: rgba(0, 0, 0, 0.151);
+    cursor: pointer;
 }
