@@ -1,2 +1,2 @@
-# Tabuada site
- Primeiro site teste - site para tabudada
+# TESTE DE SITES (SITE TESTING)
+ Área para testes de modelos de sites (Area for testing site templates).
