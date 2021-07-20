@@ -1,0 +1,49 @@
+
+body {
+    padding-top: 160px;
+    padding-bottom: 50px;
+}
+.header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+.headerLogo {
+    height: 100px;
+}
+.banner {
+    position: fixed;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+}
+.button {
+    position: fixed;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    opacity: 0.95;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: turquoise;
+    
+}
+p {
+    margin-bottom: 15px;
+}

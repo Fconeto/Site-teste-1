@@ -26,15 +26,23 @@ body {
 
 .exemplo2 {
     position: absolute;
-    top: calc(50% - 100px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    
     background-color: gray;
 }
 
 .exemplo3 {
+    position: absolute;
     background-color: yellow;
 }
 
 .exemploInterno {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 100px;
     height: 100px;
     line-height: 100px;
