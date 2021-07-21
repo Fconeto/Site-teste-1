@@ -1,49 +1,78 @@
-body {
+
+* {
     margin: 0;
     padding: 0;
+} 
+
+body {
+    height: 100%;
+    background-color: hotpink;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding-right: 50px;
+    padding-left: 50px;
+    position: relative;
+    background-color: rgb(34, 24, 31);
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topo {
-    position: relative;
-    background-color: rgb(34, 24, 31);
-    height: 9vh;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
+
 .logo {
-    position: relative;
-    float: left;
+    margin-left: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.logoEstilo img {
+    margin-right: 5px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(142, 199, 253, 0.726);
+    transform: translateY(20%);
 }
 .logoEstilo {
-    border-radius: 7px;
-    position: absolute;
-    padding: 4px;
-    background-color: rgb(35, 20, 124);
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 5vh;
+    
+    color: rgb(245, 243, 240);
+    font-size: 33px;
 }
 .menu {
+    position: relative;
     list-style: none;
-    text-decoration: none;
-    float: right;
-    
-}
-.sobre {
-    
+    top: 35%;
 }
 
-.login {
-    
-}
-
-.cadastro {
-    
-}
 
 .m {
-    
+    font-weight: bold;
+    margin-right: 75px;
+    float: right;
     text-decoration: none;
     color: white;
+
 }
 
-
+.piso {
+    position: relative;
+    bottom: 0;
+    background-color: rgb(102, 88, 88);
+    padding-left: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 45px;
+}
+.pisoDiv {
+    
+}
+.infos img {
+    width: 200px;
+}
