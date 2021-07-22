@@ -64,14 +64,34 @@ nav {
 .piso {
     position: relative;
     bottom: 0;
-    background-color: rgb(102, 88, 88);
+    background-color: rgba(102, 88, 88, 0.575);
     padding-left: 45px;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 45px;
 }
-.pisoDiv {
-    
+/* .pisoDiv {
+    position: relative;
+    background-color: rgb(124, 100, 65);
+}
+.infos {
+    background-color: blue;
+}
+.infos1 {
+    background-color: blueviolet;
+    display: inline-block;
+    position: relative;
+    right: ;
+} */
+.infosPrincipais {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.562);
+} 
+.infosPrincipais li {
+    position: relative;
+    margin-bottom: 19px;
 }
 .infos img {
     width: 200px;
