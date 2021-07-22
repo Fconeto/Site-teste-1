@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.cabeca {
+    background-color: rgb(94, 80, 80);
+    height: 60px;
+    width: 100%;
+}
+
+.logo {
+    padding: 1px;
+    display: inline-block;
+    
+}
+.logo img{
+    height: 60px;
+}
+
+nav {
+    width: 980px;
+    margin: auto;
+    position: relative;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li img {
+    width: 40px;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    /* float: left; */
+}
+
+.redes-sociais li {
+    margin-left: 20px;
+}
+.redes-sociais {
+    width: auto;
+    float: right;
+}
+
+.header-2 {
+    background-color: white;
+    width: 100%;
+    border-bottom: 3px solid rgba(182, 176, 176, 0.623);
+    height: 65px;
+}
+.menu {
+    position: relative;
+    width: 70%;
+    left: 20%;
+    /* display: inline-block; */
+    float: left;
+    
+}
+.menu ul li {
+    display: inline-block;
+    color: rgb(56, 184, 216);
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0, 140, 255);
+}
+
+#busca {
+    position: relative;
+    top: 20px;
+    margin-left: 35px;
+}
