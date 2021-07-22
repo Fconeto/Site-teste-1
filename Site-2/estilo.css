@@ -40,17 +40,18 @@ nav {
     background-color: rgba(142, 199, 253, 0.726);
     transform: translateY(20%);
 }
+
 .logoEstilo {
     
     color: rgb(245, 243, 240);
     font-size: 33px;
 }
+
 .menu {
     position: relative;
     list-style: none;
     top: 35%;
 }
-
 
 .m {
     font-weight: bold;
@@ -61,38 +62,34 @@ nav {
 
 }
 
-.piso {
-    position: relative;
-    bottom: 0;
-    background-color: rgba(102, 88, 88, 0.575);
-    padding-left: 45px;
+footer {
+    background-color: gray;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-right: 45px;
+    width: 100%;
 }
-/* .pisoDiv {
-    position: relative;
-    background-color: rgb(124, 100, 65);
-}
-.infos {
-    background-color: blue;
-}
-.infos1 {
-    background-color: blueviolet;
-    display: inline-block;
-    position: relative;
-    right: ;
-} */
-.infosPrincipais {
+.info1 {
     position: relative;
     display: inline-block;
-    list-style: none;
-    background-color: rgba(0, 0, 0, 0.562);
-} 
-.infosPrincipais li {
-    position: relative;
-    margin-bottom: 19px;
+    margin-right: 50px;
+    /* background-color: aqua; */
+    left: 100%;
+    transform: translateX(-100%);
+
 }
-.infos img {
+.baixo {
+    position: relative;
+    /* background-color: green; */
+    display: inline-block;
+    /* transform: translateX(-50%); */
+}
+.info2 {
+    left: 0;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.info2 img{
+    position: relative;
+    
     width: 200px;
 }
