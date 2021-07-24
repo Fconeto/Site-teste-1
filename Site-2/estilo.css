@@ -18,12 +18,8 @@ nav {
     padding-left: 50px;
     position: relative;
     background-color: rgb(34, 24, 31);
-    height: 50px;
+    height: 60px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.topo {
-    
 }
 
 .logo {
@@ -71,6 +67,7 @@ footer {
     height: 200px;
     
 }
+
 .info1 {
     position: relative;
     float: left;
@@ -89,19 +86,22 @@ footer {
     color: white;
     
 }
+
 .MB:last-child {
     margin-bottom: 0;
 }
+
 .MB a {
     font-weight: bold;
     color: white;
 }
+
 .baixo {
     position: relative;
     /* background-color: green; */
     display: inline-block;
-    
 }
+
 .info2 {
     margin-top: 17px;
     float: right;
