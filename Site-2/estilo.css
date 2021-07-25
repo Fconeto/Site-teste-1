@@ -13,13 +13,16 @@ a {
     text-decoration: none;
 }
 
+/* Topo do site */
+
 nav {
     padding-right: 50px;
     padding-left: 50px;
     position: relative;
     background-color: rgb(34, 24, 31);
-    height: 60px;
+    height: 70px;
     font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid 2px rgb(78, 78, 78);
 }
 
 .logo {
@@ -27,6 +30,7 @@ nav {
     position: absolute;
     top: 50%;
     transform: translateY(-60%);
+    
 }
 
 .logoEstilo img {
@@ -38,7 +42,6 @@ nav {
 }
 
 .logoEstilo {
-    
     color: rgb(245, 243, 240);
     font-size: 33px;
 }
@@ -47,6 +50,15 @@ nav {
     position: relative;
     list-style: none;
     top: 35%;
+    font-size: 18px;
+}
+
+.login {
+    position: relative;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    top: -10px;
 }
 
 .m {
@@ -57,6 +69,8 @@ nav {
     color: white;
 
 }
+
+/* Rodapé do site */
 
 footer {
     position: relative;
@@ -100,6 +114,13 @@ footer {
     position: relative;
     /* background-color: green; */
     display: inline-block;
+}
+
+.men {
+    position: relative;
+    list-style: none;
+    top: 35%;
+    font-size: 15px;
 }
 
 .info2 {

@@ -3,6 +3,7 @@ body {
     background-image: url(./img/Background-1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+
 }
 
 main {
@@ -18,31 +19,111 @@ main {
     height: 280px;
     background-color: aqua;
     overflow: hidden;
-    padding-top: 25px;
-    padding-left: 25px;
+    padding: 25px;
 }
 
-@keyframes transition {
-
-}
-.content-1 {
+@keyframes move {
+    0% {left: 0;}
+    100% {left: -100%;}
     
+} 
+
+@keyframes move-2 {
+    0% {left: 100%;}
+    30% {left: 0%;}
+    60% {left: 0%;}
+    90% {left: -100%;}
+    100% {left: 100%;}
 }
 
-.manha, .tarde, .noite {
+@keyframes move-3 {
+    0% {left: 0%;}
+    100% {left: 100%;}
+}
+
+.manha img, .tarde img, .noite img{
     width: 200px;
+    margin-left: 50px;
+    float: left;
+    position: relative;
+    background-color: royalblue;
 }
 .manha {
     position: relative;
-    transition-property: ; 
-}
-.tarde {
+    float: left;
     
+    background-color:red;
+    width: 100%;
+    height: 100%;
+
+    animation-delay: 5s;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.manha div {
     position: relative;
+    width: 50%;
+    margin-left: 50px;
+    float: left;
+
+    background-color: saddlebrown;
+    color: rosybrown;
+}
+/* .manha: {
+} */
+.tarde {
+    position: relative;
+    float: left;
+
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    bottom: 200px;
+    left: 100%;
+
+    animation-delay: 5s;
+    animation-name: move-2;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+
+}
+
+.tarde div {
+    position: relative;
+    width: 50%;
+    margin-left: 50px;
+    float: left;
+
+    background-color: saddlebrown;
+    color: rosybrown;
 }
 
 .noite {
     position: relative;
+    float: left;
+
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    bottom: 400px;
+    left: 100%;
+
+    animation-delay: 10s;
+    /* animation-name: move-2; */
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+.noite div {
+    position: relative;
+    width: 50%;
+    margin-left: 50px;
+    float: left;
+
+    background-color: saddlebrown;
+    color: rosybrown;
 }
 p {
     font-size: 20px;
