@@ -20,6 +20,7 @@ main {
     border-radius: 15px;
     overflow: hidden;
     padding: 25px;
+    box-shadow: 3px 3px rgb(202, 202, 202);
 }
 
 .content-1 {

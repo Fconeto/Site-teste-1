@@ -17,9 +17,11 @@ main {
 .container-1 {
     width: 100%;
     height: 280px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     padding: 25px;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(224, 221, 221);
 }
 
 @keyframes move {
