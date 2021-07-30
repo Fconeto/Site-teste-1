@@ -70,6 +70,25 @@ nav {
 
 }
 
+.redesSociais {
+    position: relative;
+    list-style: none;
+    top: 35%;
+    font-size: 18px;
+    background: violet;
+}
+
+.rs {
+    font-weight: bold;
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.rs img {
+    width: 20px;
+}
+
 /* Rodapé do site */
 
 footer {
@@ -96,7 +115,7 @@ footer {
 
 .MB {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: white;
     
 }
