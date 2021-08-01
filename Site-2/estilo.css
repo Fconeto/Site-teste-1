@@ -49,6 +49,10 @@ nav {
     font-size: 33px;
 }
 
+.btn_menu {
+    display: none;
+}
+
 .menu {
     position: relative;
     list-style: none;
@@ -101,7 +105,7 @@ footer {
     padding-bottom: 25px;
     width: 100%;
     height: 200px;
-    border: solid 2px rgb(197, 193, 193)
+    border-top: solid 2px rgb(197, 193, 193)
 }
 
 .info1 {
@@ -156,6 +160,169 @@ footer {
     width: 180px;
 }
 
-@media screen {
+@media only screen and (max-width: 900px) {
     
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Topo do site */
+
+nav {
+    padding-right: 50px;
+    padding-left: 50px;
+    position: relative;
+    background-color: rgb(34, 24, 31);
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid 2px rgb(78, 78, 78);
+}
+
+.logo {
+    margin-left: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    
+}
+
+.logoEstilo img {
+    margin-right: 5px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(142, 199, 253, 0.726);
+    transform: translateY(20%);
+}
+
+.logoEstilo {
+    color: rgb(245, 243, 240);
+    font-size: 33px;
+}
+
+.btn_menu {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.menu {
+    position: relative;
+    list-style: none;
+    top: 35%;
+    font-size: 18px;
+}
+
+.login {
+    position: relative;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    top: -10px;
+}
+
+.m {
+    font-weight: bold;
+    margin-right: 75px;
+    float: right;
+    text-decoration: none;
+    color: white;
+
+}
+
+.redesSociais {
+    position: relative;
+    list-style: none;
+    top: 35%;
+    font-size: 18px;
+    background: violet;
+}
+
+.rs {
+    font-weight: bold;
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.rs img {
+    width: 20px;
+}
+
+/* Rodapé do site */
+
+footer {
+    position: relative;
+    background-color: gray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    height: 200px;
+    border-top: solid 2px rgb(197, 193, 193)
+}
+
+.info1 {
+    position: relative;
+    float: left;
+    /* background-color: aqua; */
+    margin-top: 25px;
+    margin-left: 10vw;
+    /* background-color: aqua; */
+    /* left: 100%;
+    transform: translateX(-100%); */
+
+}
+
+.MB {
+    position: relative;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+.MB:last-child {
+    margin-bottom: 0;
+}
+
+.MB a {
+    font-weight: bold;
+    color: white;
+}
+
+.baixo {
+    position: relative;
+    /* background-color: green; */
+    display: inline-block;
+}
+
+.men {
+    position: relative;
+    list-style: none;
+    top: 35%;
+    font-size: 15px;
+}
+
+.info2 {
+    margin-top: 17px;
+    float: right;
+    margin-right: 10vw;
+}
+
+.info2 img{
+    position: relative;
+    width: 180px;
+}
 }
