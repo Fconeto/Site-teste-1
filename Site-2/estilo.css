@@ -49,8 +49,27 @@ nav {
     font-size: 33px;
 }
 
-.btn_menu {
+.menu_responsivo {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(36, 34, 34);
+    border-radius: 50%;
+    cursor: pointer;
+
+    top: 10px;
+
     display: none;
+}
+
+.menu_responsivo div {
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 2px;
+    background-color: gray;
+    margin: 8px;
+
 }
 
 .menu {
@@ -212,13 +231,6 @@ nav {
     font-size: 33px;
 }
 
-.btn_menu {
-    display: flex;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-}
-
 .menu {
     position: relative;
     list-style: none;
@@ -260,6 +272,29 @@ nav {
 
 .rs img {
     width: 20px;
+}
+
+.menu_responsivo {
+    position: relative;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(36, 34, 34);
+    border-radius: 50%;
+    cursor: pointer;
+
+    top: 10px;
+
+}
+
+.menu_responsivo div {
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: 2px;
+    background-color: gray;
+    margin: 8px;
+
 }
 
 /* Rodapé do site */
