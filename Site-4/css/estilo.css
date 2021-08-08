@@ -7,6 +7,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
+    /* overflow: hidden; */
     background-color: #fff;
 }
 
@@ -22,8 +23,6 @@ body {
 
 .list-menu {
     list-style: none;
-    display: inline-block;
-    
 }
 
 .menu-top {
@@ -62,9 +61,11 @@ body {
 }
 
 .nav {
+    position: relative;
     display: flex;
     width: 100%;
     height: 100%;
+    align-content: space-around;
     background-color: green;
 }
 
@@ -88,14 +89,30 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    right: 0;
 }
 
 .menu-nav {
     position: relative;
     display: flex;
     width: 60%;
-    left: 100%;
-    transform: translateX(-100%);
     padding-right: 50px;
     background-color: yellow;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    display: flex;
+    background-color: rgba(119, 118, 118, 0.658);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.font-footer {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
 }
