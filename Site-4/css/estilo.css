@@ -14,10 +14,8 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff;
-    background-image: url(./img-css/Background-1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: rgb(241, 241, 241);
+    
 }
 
 .header {
@@ -43,13 +41,13 @@ body {
     display: flex;
     height: 100%;
     background-color: rgb(110, 5, 209);
+    border-radius: 20px;
 }
 
 .logo img {
     position: relative;
     margin-top: 0.4rem;
     width: 2rem;
-    
 }
 
 .menu-top {
@@ -85,7 +83,7 @@ body {
 /* SECTIONS */
 
 .carousel {
-    background-color: white;
+    background-color: rgb(139, 120, 185);
     display: flex;
     align-items: center;
     width: 100%;
@@ -101,13 +99,14 @@ body {
 .carousel .content {
     display: flex;
     margin: 3rem;
-    background-color: turquoise;
+    /* background-color: turquoise; */
     
 }
 
 .carousel .content img {
-    display: flex;
-    width: 10rem;
+    width: 100%;
+    max-width: 10rem;
+    max-height: 10rem;
 }
 
 .carousel .content div {
@@ -121,23 +120,22 @@ body {
 }
 
 .main {
-    background-color: white;
     display: flex;
     align-items: center;
     width: 100%;
     max-width: 970px;
-    height: 15rem;
+    min-height: 15rem;
     border-radius: 1rem;
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 8rem;
     margin-bottom: 2rem;
-    box-shadow: 0.19rem 0.19rem rgba(0, 0, 0, 0.178);
+    border: solid 2px rgba(0, 0, 0, 0.37)
 }
 
 .main .content {
     display: flex;
     margin: 3rem;
-    background-color: turquoise;
+    /* background-color: turquoise; */
 }
 
 .main .content div {
@@ -151,8 +149,9 @@ body {
 }
 
 .main .content img {
-    display: flex;
-    width: 10rem;
+    width: 100%;
+    max-width: 10rem;
+    max-height: 10rem;
 }
 /* FOOTER */
 
@@ -197,7 +196,7 @@ body {
 @media (max-width: 924px) {
     .carousel .content div {
         
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .main {
@@ -206,6 +205,6 @@ body {
     }
 
     .main .content div{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
