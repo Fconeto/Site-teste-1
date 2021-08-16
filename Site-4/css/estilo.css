@@ -89,7 +89,7 @@ body {
 /* SECTIONS */
 
 .carousel {
-    background-color: rgb(139, 120, 185);
+    background-color: rgb(187, 178, 240);
     display: flex;
     align-items: center;
     width: 100%;
@@ -104,9 +104,7 @@ body {
 
 .carousel .content {
     display: flex;
-    margin: 3rem;
-    /* background-color: turquoise; */
-    
+    margin: 3rem;  
 }
 
 .carousel .content img {
@@ -120,7 +118,6 @@ body {
     font-size: 1.15rem;
     margin-left: 2rem;
     text-align: justify;
-    background-color: turquoise;
 }
 
 .main {
@@ -129,7 +126,6 @@ body {
     width: 100%;
     max-width: 970px;
     height: max-content;
-    background-color: aquamarine;
     border-radius: 1rem;
     margin: auto;
     margin-top: 8rem;
@@ -141,8 +137,6 @@ body {
     display: flex;
     height: max-content;
     margin: 3rem;
-    background-color: rgb(64, 224, 72);
-
 }
 
 .main .content div {
@@ -150,8 +144,6 @@ body {
     font-size: 1.15rem;
     margin-left: 2rem;
     text-align: justify;
-    background-color: turquoise;
-
 }
 
 .main .content img {
@@ -196,7 +188,6 @@ body {
 .footer .logo a img{
     position: relative;
     width: 2.5rem;
-
 }
 
 @media (max-width: 924px) {
@@ -257,12 +248,13 @@ body {
 
     .menu-hamb.on .menu-mobile {
         display: block;
+
     }
 
     .menu-hamb.on .menu-toggle {
         position: absolute;
-        right: 0.5rem;
-        top: 1.5rem;
+        right: 1.5rem;
+        top: 0.8rem;
     }
 
     .menu-hamb.on .menu-toggle .one {
@@ -280,11 +272,12 @@ body {
     .header-menu {
         text-align: center;
         display: block;
+
     }
 
     .header-menu a{
-        transition-duration: 0.3s;
         font-size: 2.3rem;
+        transition-duration: 1.5s;
         line-height: 4.3rem;
         margin-bottom: 1.5rem;
         
@@ -307,6 +300,18 @@ body {
     /* FOOTER */
 
     .footer {
+        height: max-content;
+    }
+
+    .footer .container {
         display: block;
+        text-align: center;
+    }
+
+    .footer .logo {
+        display: block;
+        margin: 0;
+        width: fit-content;
+        text-align: center;
     }
 }
