@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./img/casa.png" alt=""></a>
+            </div>
+
+            <div class="menu-hamb" >
+                <div class="menu-toggle" onclick="openMenu()">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav class="menu-mobile">
+                    <ul class="header-menu">
+                        <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                        <li ><a class="login"  href="login.html">LOGIN</a></li>
+                        <li ><a class="cadastro" href="cadastro.html">CADASTRO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="menu-top" >
+                <ul class="header-menu">
+                    <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                    <li ><a class="login"  href="login.html">LOGIN</a></li>
+                    <li ><a class="cadastro" href="cadastro.html">CADASTRO</a></li>
+                </ul>
+                <div >
+                    <a  href=""><img class="redes-sociais" src="./img/facebook.png" alt=""></a>
+                    <a  href=""><img class="redes-sociais" src="./img/005-instagram.png" alt=""></a>
+                    <a  href=""><img class="redes-sociais" src="./img/003-twitter.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="conteúdo">
+        <section class="container-1">
+            <div class="content-1">
+                    <h3>Cadastro 2</h3>
+                    <form class="form-cadastro" action="">
+                        <h4>Nome completo:</h4>
+                        <input type="text" name="nome completo" id="full-name-reader">
+                        <h4>Nome de usuário:</h4>
+                        <input type="text" name="nome" id="username-reader">
+                        <h4>Email:</h4> 
+                        <input type="email" name="email" id="email-reader">
+                        <h4>Senha:</h4>
+                        <input type="password" name="senha" id="password-reader">
+                        <h4>Anexo de áudio:</h4>
+                        <input type="file" name="audio" accept="audio/*" id="audio-reader">
+                        <input type="submit" id="sign-up-reader" value="Cadastrar">
+                    </form>
+                    
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <ul class="footer-menu">
+                    <li><a  target="_blank" href="https://www.linkedin.com/in/francisco-linhares-76344b210/">CRIADOR</a></li>
+                    <li><a  href="http://google.com">CONTATOS</a></li>
+                    <li><a  href="">TERMOS DE USO</a></li>
+                    <li><a  href="">PRIVACIDADE</a></li>
+                    <li><a  href="referencias.html">REFERÊNCIAS</a></li>
+                </ul>
+                    
+            </div>
+            <div class="logo">
+                <a  href=""><img src="./img/casa.png" alt=""></a>
+            </div>
+        </div>
+        
+</footer>
+</body>
+<script src="./scripts/script.js"></script>
+</html>
