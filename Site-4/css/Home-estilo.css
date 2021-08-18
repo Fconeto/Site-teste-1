@@ -1,0 +1,90 @@
+.carousel {
+    background-color: rgb(187, 178, 240);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 970px;
+    height: max-content;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    box-shadow: 0.19rem 0.19rem rgba(0, 0, 0, 0.178);
+}
+
+.carousel .content {
+    display: flex;
+    margin: 3rem;  
+}
+
+.carousel .content img {
+    width: 100%;
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.carousel .content div {
+    position: relative;
+    font-size: 1.15rem;
+    margin-left: 2rem;
+    text-align: justify;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 970px;
+    height: max-content;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    border: solid 2px rgba(0, 0, 0, 0.37)
+}
+
+.main .content {
+    display: flex;
+    height: max-content;
+    margin: 3rem;
+}
+
+.main .content div {
+    position: relative;
+    font-size: 1.15rem;
+    margin-left: 2rem;
+    text-align: justify;
+}
+
+.main .content img {
+    width: 100%;
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+@media (max-width: 924px) {
+    .carousel .content div {
+        
+        font-size: 1.1rem;
+    }
+
+    .main .content {
+        position: relative;
+        display: block;
+        text-align: center;
+    }
+
+    .main .content div{
+        font-size: 1.1rem;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 620px) {
+    .carousel .content {
+        position: relative;
+        display: block;
+        text-align: center;
+    }
+}
