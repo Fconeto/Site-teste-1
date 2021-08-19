@@ -164,6 +164,14 @@ body {
         align-items: center;
     }
 
+    .main.off {
+        display: none;
+    }
+
+    .footer.off {
+        display: none;
+    }
+
     .menu-hamb.on .menu-mobile {
         display: block;
     }
