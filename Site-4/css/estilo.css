@@ -147,6 +147,10 @@ body {
     }
 
     /* MENU SELECIONADO */
+    
+    .off {
+        display:none;
+    }
 
     .menu-hamb.on {
         position: absolute;
@@ -162,14 +166,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .main.off {
-        display: none;
-    }
-
-    .footer.off {
-        display: none;
     }
 
     .menu-hamb.on .menu-mobile {
@@ -200,9 +196,16 @@ body {
 
     }
 
+    .menu-hamb.on .menu-mobile div {
+        text-align: center;
+    }
+
+    .menu-hamb.on .menu-mobile .redes-sociais {
+        width: 2.5rem;
+    }
+
     .header-menu a{
         font-size: 2.3rem;
-        transition-duration: 1.5s;
         line-height: 4.3rem;
         margin-bottom: 1.5rem;
         

@@ -75,3 +75,7 @@ form {
     display: block;
     margin-bottom: 0.2rem;
 }
+
+.off {
+    display:none;
+}

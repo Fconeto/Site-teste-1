@@ -87,4 +87,8 @@
         display: block;
         text-align: center;
     }
+
+    .off {
+        display:none;
+    }
 }

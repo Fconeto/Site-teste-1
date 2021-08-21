@@ -1,6 +1,6 @@
 var menu = $(".menu-hamb");
-var main = $(".main");
-var footer = $(".footer");
+var main = $("main");
+var footer = $("footer");
 
 function openMenu() {
     menu = menu.toggleClass("on");
