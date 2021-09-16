@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 
 
-const bd = require("./data-base/bd");
+const bd = require("./data-base/db");
 const rotas = require("./rotas/rotas")
 
 serv.use(bodyParser.urlencoded());
