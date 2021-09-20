@@ -1,0 +1,62 @@
+
+
+@keyframes move-1 {
+    0% {left: 0;}
+    100% {left: -100%;}
+}
+
+@keyframes move-2 {
+    0% {left: 100%;}
+    100% {left: 0;}
+}
+
+@keyframes move-3 {
+    0% {left: 0;}
+    100% {left: 200%;}
+}
+
+@keyframes move-4 {
+    0% {left: -100%;}
+    100% {left: 100%;}
+}
+
+@keyframes move-5 {
+    0% {left: -200%;}
+    100% {left: 0%;}
+}
+
+
+.anim_c_l {
+    animation-name: move-1;
+    animation-duration: 0.8s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.anim_r_c {
+    animation-name: move-2;
+    animation-duration: 0.8s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.anim_c_r {
+    animation-name: move-3;
+    animation-duration: 0.6s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.anim_l_r {
+    animation-name: move-4;
+    animation-duration: 0.6s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.anim_l_c {
+    animation-name: move-5;
+    animation-duration: 0.6s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}

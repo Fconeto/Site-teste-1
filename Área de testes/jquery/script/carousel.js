@@ -2,24 +2,27 @@ let manha = $("#manha");
 let tarde = $(".tarde");
 let noite = $(".noite");
 let animar = $("#animar");
+let um = $(".one");
+let dois = $(".two");
+let tres = $(".three").
 
-animar.click(() => {carManha()})
+animar.click(function carousel() {manha.toggleClass("anim_c_l")
+tarde.toggleClass("anim_r_c")
+    setTimeout(() => {
+        tarde.toggleClass("anim_r_c").toggleClass("anim_c_l")
+        noite.toggleClass("anim_r_c")
+        setTimeout(() => {
+            manha.toggleClass("anim_c_l").toggleClass("anim_l_c")
+            tarde.toggleClass("anim_c_l").toggleClass("anim_l_r")
+            noite.toggleClass("anim_r_c").toggleClass("anim_c_r")
+            setTimeout(() => {
+            manha.toggleClass("anim_l_c")
+            tarde.toggleClass("anim_l_r")
+            noite.toggleClass("anim_c_r")
+            carousel();
+            }, 3000);
+        }, 6000);
+    }, 6000);
+})
 
-function reset() {
-    manha.delay(3000).animate({ right: 0 }, 1500).delay(3000).animate({ right: 0 }, carManha);
-    tarde.delay(3000).animate({ left: 600}, 1500);
-    noite.delay(3000).animate({ left: 1200 }, 1500);
-}
 
-function carManha() {
-    console.log("ok");
-    manha.animate({ right: 600 }, 2000, carTarde);
-    tarde.animate({ left: 0}, 2000)
-    noite.animate({ left: 600 })
-}
-
-function carTarde() {
-    manha.animate({ right: 1200 });
-    tarde.delay(3000).animate({left: -600 }, 2000)
-    noite.delay(3000).animate({ left: 0 }, 2000, reset)
-}

@@ -22,17 +22,11 @@ body {
     box-shadow: rgba(0, 0, 0, 0.144) 2px 2px;
 }
 
-/* .content {
-    position: relative;
+.content {
+    height: 90%;
+    width: 70%;
     margin: auto;
-    margin-left: 2rem;
-    margin-right: 2rem;
-
-
-    display: inline-block;
-
-    background-color: violet;
-} */
+}
 
 .content img {
     height: 70%;
@@ -43,35 +37,48 @@ body {
     position: relative;
     height: 90%;
     width: 70%;
-    margin: auto;
 
     font-weight: bold;
-
-    /* background-color: green; */
 
 }
 
 .tarde {
     position: relative;
-    margin: auto;
     font-weight: bold;
 
-    /* background-color: green; */
-    height: 90%;
-    width: 70%;
     left: 100%;
     bottom: 90%;
 }
 
 .noite {
     position: relative;
-    margin: auto;
     font-weight: bold;
 
-    /* background-color: green; */
-    height: 90%;
-    width: 70%;
     left: 100%;
     bottom: 180%;
 }
 
+.btn {
+    position: absolute;
+    display: block;
+    /* background-color: rgb(138, 21, 21); */
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0%;
+    width: 8rem;
+    height: 30px;
+
+    text-align: center;
+}
+
+.btn div {
+    position: relative;
+    display: inline-block;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(128, 128, 128, 0.507);
+    border-radius: 50%;
+}
