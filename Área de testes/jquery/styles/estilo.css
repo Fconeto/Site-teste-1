@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(231, 223, 223);
+}
+
+.container {
+    position: relative;
+    display: flexbox;
+
+    max-width: 80%;
+    height: 20rem;
+    top: 50vh;
+    transform: translateY(-50%);
+    margin: auto;
+    overflow: hidden;
+    
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.144) 2px 2px;
+}
+
+/* .content {
+    position: relative;
+    margin: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+
+    display: inline-block;
+
+    background-color: violet;
+} */
+
+.content img {
+    height: 70%;
+    
+}
+
+.manha {
+    position: relative;
+    height: 90%;
+    width: 70%;
+    margin: auto;
+
+    font-weight: bold;
+
+    /* background-color: green; */
+
+}
+
+.tarde {
+    position: relative;
+    margin: auto;
+    font-weight: bold;
+
+    /* background-color: green; */
+    height: 90%;
+    width: 70%;
+    left: 100%;
+    bottom: 90%;
+}
+
+.noite {
+    position: relative;
+    margin: auto;
+    font-weight: bold;
+
+    /* background-color: green; */
+    height: 90%;
+    width: 70%;
+    left: 100%;
+    bottom: 180%;
+}
+
