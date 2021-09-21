@@ -1,0 +1,19 @@
+
+@keyframes move-1 {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(180deg);}
+}
+
+.rota_1 {
+    animation-name: move-1;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.rota_2 {
+    animation-name: move-1;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}

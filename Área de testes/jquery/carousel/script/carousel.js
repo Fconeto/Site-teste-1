@@ -1,52 +1,51 @@
 let manha = $("#manha");
 let tarde = $(".tarde");
 let noite = $(".noite");
-let animar = $("#animar");
 let um = $(".one");
 let dois = $(".two");
 let tres = $(".three");
 
-function call_one() {
-    setTimeout(() => {
-        if (manha.hasClass("anim_l_c")) {
-            dois.click()
-        }
-        else if (tarde.hasClass("anim_r_c") || tarde.hasClass("anim_l_c")) {
-            tres.click()
-        }
-        else if (noite.hasClass("anim_r_c") || noite.hasClass("anim_rr_c")){
-            um.click()
-        }
-    }, 5000);
-}
+// function call_one() {
+//     setTimeout(() => {
+//         if (manha.hasClass("anim_l_c")) {
+//             dois.click()
+//         }
+//         else if (tarde.hasClass("anim_r_c") || tarde.hasClass("anim_l_c")) {
+//             tres.click()
+//         }
+//         else if (noite.hasClass("anim_r_c") || noite.hasClass("anim_rr_c")){
+//             um.click()
+//         }
+//     }, 5000);
+// }
 
-function call_two() {
-    setTimeout(() => {
-        if (manha.hasClass("anim_l_c")) {
-            dois.click()
-        }
-        else if (noite.hasClass("anim_r_c") || noite.hasClass("anim_rr_c")){
-            um.click()
-        }
-        else if (tarde.hasClass("anim_r_c") || tarde.hasClass("anim_l_c")) {
-            tres.click()
-        } 
-    }, 5000);
-}
+// function call_two() {
+//     setTimeout(() => {
+//         if (manha.hasClass("anim_l_c")) {
+//             dois.click()
+//         }
+//         else if (noite.hasClass("anim_r_c") || noite.hasClass("anim_rr_c")){
+//             um.click()
+//         }
+//         else if (tarde.hasClass("anim_r_c") || tarde.hasClass("anim_l_c")) {
+//             tres.click()
+//         } 
+//     }, 5000);
+// }
 
-function call_three() {
-    setTimeout(() => {
-        if (manha.hasClass("anim_l_c")) {
-            dois.click()
-        }
-        else if (tarde.hasClass("anim_r_c") || tarde.hasClass("anim_l_c")) {
-            tres.click()
-        }
-        else if (noite.hasClass("anim_r_c") || noite.hasClass("anim_rr_c")) {
-            um.click()
-        }
-    }, 5000);
-}
+// function call_three() {
+//     setTimeout(() => {
+//         if (manha.hasClass("anim_l_c")) {
+//             dois.click()
+//         }
+//         else if (tarde.hasClass("anim_r_c") || tarde.hasClass("anim_l_c")) {
+//             tres.click()
+//         }
+//         else if (noite.hasClass("anim_r_c") || noite.hasClass("anim_rr_c")) {
+//             um.click()
+//         }
+//     }, 5000);
+// }
 
 
 um.click( () => {
