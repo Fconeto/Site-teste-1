@@ -25,6 +25,21 @@
     100% {left: 0%;}
 }
 
+@keyframes move-6 {
+    0% {left: 100%;}
+    100% {left: -100%;}
+}
+
+@keyframes move-7 {
+    0% {left: 0;}
+    100% {left: -200%;}
+}
+
+@keyframes move-8 {
+    0% {left: 200%;}
+    100% {left: 0;}
+}
+
 
 .anim_c_l {
     animation-name: move-1;
@@ -60,3 +75,25 @@
     animation-timing-function:ease-in-out;
     animation-fill-mode: forwards;
 }
+
+.anim_r_l {
+    animation-name: move-6;
+    animation-duration: 0.7s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.anim_c_ll {
+    animation-name: move-7;
+    animation-duration: 0.7s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.anim_rr_c {
+    animation-name: move-8;
+    animation-duration: 0.7s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+
