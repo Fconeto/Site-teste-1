@@ -9,16 +9,11 @@
 </head>
 <body>
     <section>
-        <div id="day">
-
+        <div class="dia" id="day">
+            <div class="sol" id="sun"></div>
         </div>
-        <div id="text_1">
+        <div class="texto um" id="text-1">
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
@@ -28,21 +23,37 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
             </p>
         </div>
-        <div>
+        <div class="space">
 
         </div>
-        <div id="text_2">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
-
+        <div class="texto dois" id="text-2">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sunt! Sapiente obcaecati rem totam quis! Facere ducimus qui cum ut debitis nemo tenetur, iure, sunt et ex ipsam, quibusdam ad!    
+            </p>
+            
+        </div>
+        <div class="noite" id="night">
+            <div class="lua" id="moon"></div>
         </div>
     </section>
 </body>
 <script>
+    let sol = document.getElementById("sun");
+    let lua = document.getElementById("moon");
+    let space = document.getElementsByClassName("space");
 
+    window.addEventListener("scroll", function() {
+        let scrollVal = window.scrollY;
+        sol.style.marginLeft = scrollVal*1.1 + "px";
+        sol.style.top = scrollVal + "px";
+        
+        
+    })
+    
 </script>
 </html>

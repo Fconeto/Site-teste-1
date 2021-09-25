@@ -4,23 +4,83 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    --fundoM: rgb(39, 138, 231);
+    --fundoN: rgb(30, 4, 65);
 }
 
 #day {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+#night {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
     height: 50vh;
     width: 100%;
 }
 
+.sol {
+    position: relative;
+    width: 11.5rem;
+    height: 11.5rem;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(248, 248, 22)35%, rgba(255, 166, 0, 0.856), rgba(121, 115, 27, 0.027)70%);
+}
+
+.lua {
+    position: relative;
+    width: 11.5rem;
+    height: 11.5rem;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(241, 241, 241)35%, rgba(230, 229, 228, 0.979), rgba(121, 115, 27, 0.027)50%);
+    margin-left: 633.8px;
+    top: -598px;
+}
+
 section {
-    background: linear-gradient(rgb(255, 187, 0), white);
+    background: linear-gradient(var(--fundoM), var(--fundoN));
 }
 
-#text_1 p {
-    background: linear-gradient(rgba(0, 0, 255, 0.767),rgba(102, 102, 102, 0.534));
-    color: white;
+.texto {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: fit-content;
+
 }
 
-#text_2 {
-    background: linear-gradient(rgba(102, 102, 102, 0.534), rgba(59, 1, 112, 0.767));
+.space {
+    width: 100%;
+    height: 300px;
+
+}
+
+.texto p {
+    position: relative;
+    width: 100%;
+    max-width: 75rem;
+    text-align: justify;
+    padding: 16px 30px;
+    border-radius: 10px;
     color: white;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.um p{
+    background: linear-gradient(rgba(160, 159, 159, 0.719), rgba(105, 105, 105, 0.753));
+}
+
+.dois p {
+    background: linear-gradient(rgba(160, 159, 159, 0.719), rgba(105, 105, 105, 0.753));
+
 }
